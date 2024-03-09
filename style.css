@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 1728px;
+    height: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.main-content {
+    width: 816px;
+    height: 1076px;
+    border-radius: 20px;
+}
+
+.login-form {
+    width: 388px;
+    height: 537px;
+    margin: auto;
+    margin-top: 270px;
+}
+
+.intro {
+    width: 388px;
+    height: 128px;
+    font-family: roboto;
+}
+ 
+h2 {
+    width: 350px;
+    height: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+p {
+    width: 388px;
+    height: 64px;
+    color: #313957;
+    font-size: 20px;
+}
+
+.form {
+    width: 388px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.input {
+    width: 388px;
+    height: 72px;
+    font-size: 16px;
+}
+
+.column {
+    width: 388px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px;
+    background-color: #D4D7E3;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+
+p .forget {
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+button {
+    width: 388px;
+    height: 52px;
+    color: white;
+    background-color: #162D3A;
+    border-radius: 12px;
+}
+
+.footer-form {
+    width: 382px;
+    height: 29px;
+    padding-top: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    width: 382px;
+    height: 16px;
+    left: 0px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.image-content{
+    width: 816px;
+    height: 1076px;
+    background-color: black;
+    background-image: url(Art.png);
+    border-radius: 20px;
+}
